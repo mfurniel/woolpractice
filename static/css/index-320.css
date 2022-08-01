@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    background-color: rgb(211, 30, 114);
+    height: auto;
+    width: 100vw;   
+    position:fixed;
+    flex-direction: column;
+    place-content: center;
+}
+
+.logo{
+    display: flex;
+    place-content: center;
+    margin-top: 0.5rem;
+    /* width: 10rem; */
+    padding: 0;
+}
+
+.buttons{
+    padding: 1rem;
+    display: none;
+    /* margin-left: auto; */
+}
+
+
+.buttons button{
+    background: none;
+    border: none;
+    /* margin: 0 1rem 0 1rem; */
+}
+
+.carrito{
+    display: flex;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+main{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fake-header{
+    background-color: rgb(1, 17, 12); 
+    height: 6rem;
+    width: 100vw;
+  
+}
+
+.carousel{
+    height: 50vh;
+    width: 100vw;
+    background-color: blanchedalmond;
+}
+
+.redes{
+    margin-top: 0.5rem;
+    height: 8rem;
+    width: 100vw;
+    background-color: rgb(109, 101, 101);
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes input{
+    height: 5rem;
+    margin: 2rem;
+}
+
+.products{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+}
+
+.products-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.producto{
+    margin: 1rem;
+    height: 30rem;
+    width: 80vw;
+    background-color:brown;
+}
+
+footer{
+    height: 20rem;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+}
+
+.social span{
+    padding: 0.3rem;
+}
+
+.about{
+    margin-top: 4rem;
+    text-align: justify ;
+    width: 90vw;
+}

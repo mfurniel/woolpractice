@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    background-color: aquamarine;
+    height: 6rem;
+    width: 100vw;
+    align-items: center;
+    position:fixed;
+}
+
+.logo{
+    width: 10rem;
+    padding: 1rem;
+}
+
+.buttons{
+    padding: 2rem;
+    display: flex;
+    /* margin-left: auto; */
+}
+
+
+.buttons button{
+    background: none;
+    border: none;
+    margin: 1rem;
+}
+
+.carrito{
+    padding: 2rem;
+    margin-left: auto;
+}
+
+.carrito button{
+    background: none;
+    border: none;
+    margin: 1rem;
+}

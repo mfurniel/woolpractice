@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    background-color: rgb(69, 30, 211);
+    height: 6rem;
+    width: 100vw;
+    align-items: center;
+    position:fixed;
+}
+
+.logo{
+    width: 10rem;
+    padding: 1rem;
+}
+
+.buttons{
+    padding: 2rem;
+    display: flex;
+    /* margin-left: auto; */
+}
+
+
+.buttons button{
+    background: none;
+    border: none;
+    margin: 1rem;
+}
+
+.carrito{
+    padding: 2rem;
+    margin-left: auto;
+}
+
+main{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fake-header{
+    background-color: rgb(1, 17, 12); 
+    height: 6rem;
+    width: 100vw;
+  
+}
+
+.carousel{
+    height: 60vh;
+    width: 90vw;
+    background-color: blanchedalmond;
+}
+
+.redes{
+    margin-top: 0.5rem;
+    height: 8rem;
+    width: 100vw;
+    background-color: rgb(109, 101, 101);
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes input{
+    height: 5rem;
+    margin: 2rem;
+}
+
+.products{
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+}
+
+.products-3{
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    margin: 1rem;
+    height: 24rem;
+    width: 30rem ;
+    background-color:brown;
+}
+
+footer{
+    height: 20rem;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.social span{
+    padding: 0.3rem;
+}
+
+.about{
+    text-align: justify ;
+    width: 30vw;
+}
