@@ -96,6 +96,21 @@ header{
     padding: 0 0.6rem 0.6rem 0;
 }
 
+.talla button{
+    background-color: whitesmoke;
+    border: none;
+    height: 1rem;
+    width: 2rem;
+}
+
+.talla button:checked{
+   border: solid green 2px;
+}
+
+.talla-precio{
+    display: flex;
+}
+
 main{
     margin-top: 0.5rem;
     display: flex;
