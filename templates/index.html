@@ -32,47 +32,72 @@
       
         <!-- <div id="slide-container"> -->
             <div class="carousel">
-                <button id="retroceder">atras</button>
+                <button id="retroceder"><</button>
                 <!-- <div id="imagen"></div> -->
                 <img id="imagen">
-                <button id="avanzar">adelante</button>
+                <button id="avanzar">></button>
             </div>  
         <!-- </div> -->
         
 
         <div class="redes">
             <!-- <span>Facebook</span> -->
-            <input type="image" src="../static/img/hogar.png">
+            <a href="https://www.facebook.com/people/Woolfluff-Woolfluff/100071831267637/"><input type="image" src="../static/img/facebook.png"></a>
             <!-- <span>Instagram</span> -->
-            <input type="image" src="../static/img/hogar.png">
+            <a href="https://www.instagram.com/woolfluff/"><input type="image" src="../static/img/instagram.png"></a>
             <!-- <span>Mercado Libre</span> -->
-            <input type="image" src="../static/img/hogar.png">
+            <input type="image" src="../static/img/whatsapp.png">
         </div>
         <section class="products">
             <div class="products-3">
                 <div class="producto">
                     <figure>
-                        <img src="../static/img/hogar.png" alt="">
+                        <img src="../static/img/productos/limon.png" alt="">
                     </figure>
-                    <h2>Producto Generico</h2>
+                    <h2 class="nombre_p">Camita Limon</h2>
                     <div class="masmenos">
-                        <button>-</button>
-                        <div> 0 </div>
-                        <button>+</button>
+                        <button id="menos" class="menos-mas" onclick="contadormenos('cantidad')">-</button>
+                        <input id="cantidad" type="text" style="text-align: center;" value="1">
+                        <button id="mas" class="menos-mas" onclick="contadormas('cantidad')">+</button>
+                    </div>
+                    <div class="talla">
+                        <button>M</button>
+                        <button>L</button>
+                        <button>XL</button>
                     </div>
                     <button>Agregar al Carrito</button>
                 </div>
                 <div class="producto">
                     <figure>
-                        <img src="../static/img/hogar.png" alt="">
+                        <img src="../static/img/productos/coyote.png" alt="">
                     </figure>
-                    <h2>Producto Generico</h2>
+                <h2 class="nombre_p">Camita Coyote</h2>
+                </div>
+                <div class="producto">
+                    <figure>
+                        <img src="../static/img/productos/militar.png" alt="">
+                    </figure>
+                <h2 class="nombre_p">Camita Militar</h2>
+                </div>
+            </div>  
+            <div class="products-3">
+                <div class="producto">
+                    <figure>
+                        <img src="../static/img/productos/nieve.png" alt="">
+                    </figure>
+                <h2 class="nombre_p">Camita Nieve</h2>
+                </div>
+                <div class="producto">
+                    <figure>
+                        <img src="../static/img/productos/rosa.png" alt="">
+                    </figure>
+                <h2 class="nombre_p">Camita Rosa</h2>
                 </div>
                 <div class="producto">
                     <figure>
                         <img src="../static/img/hogar.png" alt="">
                     </figure>
-                    <h2>Producto Generico</h2>
+                <h2 class="nombre_p"></h2>
                 </div>
             </div>  
             <div class="products-3">
@@ -80,39 +105,19 @@
                     <figure>
                         <img src="../static/img/hogar.png" alt="">
                     </figure>
-                    <h2>Producto Generico</h2>
+                <h2 class="nombre_p"></h2>
                 </div>
                 <div class="producto">
                     <figure>
                         <img src="../static/img/hogar.png" alt="">
                     </figure>
-                    <h2>Producto Generico</h2>
+                <h2 class="nombre_p"></h2>
                 </div>
                 <div class="producto">
                     <figure>
                         <img src="../static/img/hogar.png" alt="">
                     </figure>
-                    <h2>Producto Generico</h2>
-                </div>
-            </div>  
-            <div class="products-3">
-                <div class="producto">
-                    <figure>
-                        <img src="../static/img/hogar.png" alt="">
-                    </figure>
-                    <h2>Producto Generico</h2>
-                </div>
-                <div class="producto">
-                    <figure>
-                        <img src="../static/img/hogar.png" alt="">
-                    </figure>
-                    <h2>Producto Generico</h2>
-                </div>
-                <div class="producto">
-                    <figure>
-                        <img src="../static/img/hogar.png" alt="">
-                    </figure>
-                    <h2>Producto Generico</h2>
+                <h2 class="nombre_p"></h2>
                 </div>
             </div>  
         </section>
@@ -130,5 +135,6 @@
         </div>
     </footer>
     <script src="/index.js"></script>
+    <script src="/carrito.js"></script>
 </body>
 </html>
