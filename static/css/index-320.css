@@ -8,6 +8,23 @@ html{
     font-size: 62.5%;
 }
 
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --illusion: #f89fca;
+    --geraldine: #fb8c82;
+    --vanilla-ice: #f4dedf;
+    --kobi: #eca4e4;
+    --mobster: #736d7c;
+    --gravel: #534d54;
+    --shady-lady: #aa9ca8;
+    --strikemaster: #8c5c80;
+    --viola: #c484a9;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
 header{
     display: flex;
     background-color: rgb(211, 30, 114);

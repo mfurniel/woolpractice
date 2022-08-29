@@ -8,9 +8,26 @@ html{
     font-size: 62.5%;
 }
 
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --illusion: #f89fca;
+    --geraldine: #fb8c82;
+    --vanilla-ice: #f4dedf;
+    --kobi: #eca4e4;
+    --mobster: #736d7c;
+    --gravel: #534d54;
+    --shady-lady: #aa9ca8;
+    --strikemaster: #8c5c80;
+    --viola: #c484a9;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
 header{
     display: flex;
-    background-color: aquamarine;
+    background-color: var(--illusion)   ;
     height: 6rem;
     width: 100vw;
     align-items: center;
@@ -18,8 +35,10 @@ header{
 }
 
 .logo{
-    width: 10rem;
-    padding: 1rem;
+    /* width: 10rem; */
+    /* padding: 1rem; */
+    margin-left: 2rem;
+    height: 6rem;
 }
 
 .buttons{
@@ -46,6 +65,11 @@ header{
     margin: 1rem;
 }
 
+.img-carrito{
+    padding: 1.2rem;
+    height: 6rem;
+}
+
 main{
     margin-top: 0.5rem;
     display: flex;
@@ -67,12 +91,26 @@ main{
     justify-content: center;
     height: 60vh;
     width: 80vw;
-    background-color: blanchedalmond;
+    background-color:  var(--shady-lady);
 }
 
 .carousel img{
     height: 60vh;
+    /* width: 100%;
+    object-fit: cover; */
 }
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+#imagen {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
 
 .redes{
     margin-top: 0.5rem;

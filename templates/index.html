@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebDog</title>    
+    <link rel="shortcut icon" href="../static/img/Logo.ico">
+    <title>Woolfluff</title>    
     <link rel="stylesheet" href="../static/css/index-general.css">
     <link rel="stylesheet" media="only screen and (max-width: 768px)" href="../static/css/index-768.css">
     <link rel="stylesheet" media="only screen and (max-width: 320px)" href="../static/css/index-320.css">
 </head>
 <body>
     <header>
-        <!-- <img src="" alt=""> -->
-        <h1 class="logo">WebDog</h1>
+        <img class="logo" src="../static/img/Logo.jpg" alt="Logo Woolfluff">
+        <!-- <h1 class="logo">WebDog</h1> -->
         <nav class="buttons">  
                 <button onclick="location.href='./index.html'">Home</button>
                 <button>Shopping</button>
@@ -20,7 +21,7 @@
                 <button onclick="location.href='./contact-us.html'">Contact</button>
         </nav>  
         <div class="carrito">
-            <button onclick="location.href='./carrito.html'" ><h2>Carrito</h2></button>
+            <button onclick="location.href='./carrito.html'" ><img class="img-carrito" src="../static/img/carrito.png" alt=""></button>
         </div>
     </header>
     
@@ -29,9 +30,15 @@
 
     <main>
       
-        <div class="carousel">
-            <img src="../static/img/hogar.png" alt="">
-        </div>
+        <!-- <div id="slide-container"> -->
+            <div class="carousel">
+                <button id="retroceder">atras</button>
+                <!-- <div id="imagen"></div> -->
+                <img id="imagen">
+                <button id="avanzar">adelante</button>
+            </div>  
+        <!-- </div> -->
+        
 
         <div class="redes">
             <!-- <span>Facebook</span> -->
@@ -122,5 +129,6 @@
             <p>Somos una pyme de la region del Biobio. Nuestra mision es entregar los mejores prouctos para tu mascota. nvianos una foto de tu mascota con uno de nustro productos y saldra en la portada de la pagina. Gracias el apoyo!</p>
         </div>
     </footer>
+    <script src="/index.js"></script>
 </body>
 </html>
