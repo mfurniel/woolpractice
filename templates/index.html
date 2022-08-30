@@ -34,7 +34,7 @@
             <div class="carousel">
                 <button id="retroceder"><</button>
                 <!-- <div id="imagen"></div> -->
-                <img id="imagen">
+                <img id="imagen" >
                 <button id="avanzar">></button>
             </div>  
         <!-- </div> -->
@@ -52,9 +52,29 @@
             <div class="products-3">
                 <div class="producto">
                     <figure>
-                        <img src="../static/img/productos/limon.png" alt="">
+                        <img class="imagen_p" src="../static/img/productos/limon.png" alt="">
                     </figure>
                     <h2 class="nombre_p">Camita Limon</h2>
+                    <div class="masmenos">
+                        <button id="menos" class="menos-mas" onclick="contadormenos('cantidad')">-</button>
+                        <input class="cantidad" id="cantidad" type="text" style="text-align: center;" value="1">
+                        <button id="mas" class="menos-mas" onclick="contadormas('cantidad')">+</button>
+                    </div>
+                    <div class="talla-precio">
+                        <form action="" class="talla"></form>
+                            <label for="">M</label><input type="radio" name="ta" value="M">
+                            <label for="">L</label><input type="radio" name="ta" value="L">
+                            <label for="">XL</label><input type="radio" name="ta" value="XL" checked>
+                        </form>
+                        <h1 class="valor">Valor: 19.990</h1>
+                    </div>
+                    <button class="addToCart">Agregar al Carrito</button>
+                </div>
+                <div class="producto">
+                    <figure>
+                        <img class="imagen_p" src="../static/img/productos/coyote.png" alt="">
+                    </figure>
+                    <h2 class="nombre_p">Camita Coyote</h2>
                     <div class="masmenos">
                         <button id="menos" class="menos-mas" onclick="contadormenos('cantidad')">-</button>
                         <input id="cantidad" type="text" style="text-align: center;" value="1">
@@ -62,19 +82,13 @@
                     </div>
                     <div class="talla-precio">
                         <form action="" class="talla"></form>
-                            <label for="">M<input type="checkbox"></label>
-                            <label for="">L<input type="checkbox"></label>
-                            <label for="">XL<input type="checkbox"></label>
+                            <label for="">M</label><input type="radio" name="ta" value="M">
+                            <label for="">L</label><input type="radio" name="ta" value="L">
+                            <label for="">XL</label><input type="radio" name="ta" value="XL" checked>
                         </form>
                         <h1 class="valor">Valor: 19.990</h1>
                     </div>
-                    <button>Agregar al Carrito</button>
-                </div>
-                <div class="producto">
-                    <figure>
-                        <img src="../static/img/productos/coyote.png" alt="">
-                    </figure>
-                <h2 class="nombre_p">Camita Coyote</h2>
+                    <button class="addToCart">Agregar al Carrito</button>
                 </div>
                 <div class="producto">
                     <figure>
@@ -124,6 +138,9 @@
                 </div>
             </div>  
         </section>
+        <div class="shopping-cart-items shoppingCartItemsContainer">
+
+        </div>
     </main>
     <footer>
         <div class="social">
@@ -137,7 +154,7 @@
             <p>Somos una pyme de la region del Biobio. Nuestra mision es entregar los mejores prouctos para tu mascota. nvianos una foto de tu mascota con uno de nustro productos y saldra en la portada de la pagina. Gracias el apoyo!</p>
         </div>
     </footer>
-    <script src="/index.js"></script>
+    <!-- <script src="/index.js"></script> -->
     <script src="/carrito.js"></script>
 </body>
 </html>
