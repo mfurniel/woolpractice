@@ -52,7 +52,6 @@ function  addItemToShoppingCart(productoimagen,productonombre,productovalor){
 
 
 
-
 var i;
 
 function contadormas(iddeinput){ 
