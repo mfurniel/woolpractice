@@ -2,9 +2,9 @@
 window.onload = function () {
     // Variables
     const IMAGENES = [
-        '/static/img/clientes/cliente4.jpg',
-        '/static/img/clientes/cliente5.jpg',
-        '/static/img/clientes/cliente6.jpg'
+        'static/img/clientes/cliente4.jpg',
+        'static/img/clientes/cliente5.jpg',
+        'static/img/clientes/cliente6.jpg'
     ];
 
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 100;
